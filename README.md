@@ -17,9 +17,3 @@ A modular Android app designed to simulate transport management workflows. Built
 ## APK Release
 Download the signed APK from the [Releases](https://github.com/Nimeshgujral/AppDevProject/releases) tab.
 
-## 👨‍🏫 Classroom Use
-Ideal for teaching:
-- Android UI design
-- Git workflows
-- Modular architecture
-- Localization and accessibility
