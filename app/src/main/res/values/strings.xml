@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Project_AppDev</string>
+    <string name="client_id">
+        589439262233-tdh6bs11eenl45r6q5q7pr83q7c2f3uf.apps.googleusercontent.com
+    </string>
+
+    <string-array name="route_options">
+        <item>Daet - Talisay</item>
+        <item>Daet - Labo</item>
+        <item>Daet - Vinzons</item>
+        <item>Daet - Mercedes</item>
+        <item>Daet - San Vicente</item>
+        <item>Daet - Paracale</item>
+        <item>Daet - Jose Panganiban</item>
+        <item>Daet - Basud</item>
+        <item>Daet - Capalonga</item>
+        <item>Daet - Sta. Elena</item>
+    </string-array>
+
+    <string-array name="durations_options">
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>1 Month</item>
+        <item>3 Months</item>
+        <item>6 Months</item>
+        <item>9 Months</item>
+        <item>12 Months</item>
+    </string-array>
+
+    <string-array name="payment_options">
+        <item>Gcash</item>
+        <item>Maya</item>
+        <item>Credit Card</item>
+    </string-array>
+
+</resources>

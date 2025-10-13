@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/loginbg"
+    android:padding="24dp">
+
+
+
+
+    <!-- Route Selection -->
+    <TextView
+        android:id="@+id/routeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Route"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/routeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:entries="@array/route_options"
+        android:scrollbarSize="30sp"
+        android:contentDescription="Select route / Piliin ang ruta" />
+
+
+    <!-- Duration Selection -->
+    <TextView
+        android:id="@+id/durationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/durationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:entries="@array/durations_options"
+        android:contentDescription="Select duration / Piliin ang bisa" />
+
+    <!-- Payment Method -->
+
+    <TextView
+        android:id="@+id/paymentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/paymentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:entries="@array/payment_options"
+        android:contentDescription="Select payment method / Piliin ang paraan ng bayad" />
+
+    <!-- Total Price -->
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOTAL PRICE: ₱100"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:contentDescription="Total price / Kabuuang halaga" />
+
+    <!-- Proceed Button -->
+    <Button
+        android:id="@+id/proceedPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROCEED TO PAYMENT"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4065BF"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:contentDescription="Proceed to payment / Magpatuloy sa bayad" />
+
+</LinearLayout>
